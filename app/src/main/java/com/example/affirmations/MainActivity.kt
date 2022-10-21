@@ -15,8 +15,5 @@ class MainActivity : AppCompatActivity() {
         // Inflate the layout through the viewBinding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        // Display on screen the size of the affirmation list
-        binding.affirmationListSize.text = Datasource().loadAffirmations().size.toString()
     }
 }
