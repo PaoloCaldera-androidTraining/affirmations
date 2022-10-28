@@ -7,4 +7,21 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colors for custom day theme -->
+    <color name="light_blue">#0288d1</color>
+    <color name="light_blue_light">#5eb8ff</color>
+    <color name="light_blue_dark">#005b9f</color>
+    <color name="light_green">#8bc34a</color>
+    <color name="light_green_light">#bef67a</color>
+    <color name="light_green_dark">#5a9216</color>
+
+    <!-- Colors for custom night theme -->
+    <color name="light_blue_100">#b3e5fc</color>
+    <color name="light_blue_100_light">#e6ffff</color>
+    <color name="light_blue_100_dark">#82b3c9</color>
+    <color name="light_green_200">#c5e1a5</color>
+    <color name="light_green_200_light">#f8ffd7</color>
+    <color name="light_green_200_dark">#5a9216</color>
+
 </resources>

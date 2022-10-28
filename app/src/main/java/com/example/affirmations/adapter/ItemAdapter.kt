@@ -14,6 +14,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.affirmations.R
@@ -27,6 +28,7 @@ import com.example.affirmations.data.Affirmation
 class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
     // Reference to all the components to update
     val textView = view.findViewById<TextView>(R.id.list_item_text)
+    val imageView = view.findViewById<ImageView>(R.id.list_item_image)
 }
 
 
@@ -64,6 +66,7 @@ class ItemAdapter(private val context: Context, private val dataset: List<Affirm
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         // context.resources returns the Resources object associated to the MainActivity context
         holder.textView.text = context.resources.getString(dataset[position].stringResourceId)
+        holder.imageView.setImageResource(dataset[position].imageResourceId)
     }
 
 
